@@ -1,5 +1,6 @@
 # fontion manger attiéké
 
+
 class Mangerattiéké:
 
     def __init__(self, non, mange, quantite):
@@ -7,11 +8,8 @@ class Mangerattiéké:
         self.mange = mange
         self.quantite = quantite
 
-
     def manger(self):
-         print(f"{self.non} mange {self.quantite} d'attiéké")
-        
-
+        print(f"{self.non} mange {self.quantite} d'attiéké")
 
 
 personne1 = Mangerattiéké("Adama", "attiéké", "500g")
